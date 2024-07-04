@@ -1,0 +1,63 @@
+@import url('https://api.cartola.globo.com/clubes');
+*{
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  display: flex;
+  background-color: #005e1c;
+  color: aliceblue;
+  padding: 5px 20px;
+  align-items: center;
+  justify-content: space-between;
+ }
+
+.titulo{
+  font-weight: 700;
+  font-size: 50px;
+  font-family: cursive;
+  
+}
+
+ .logobrasa img{
+  display: flex;
+  justify-content: start;
+  max-height: 100px;
+  max-width: 200px;
+ }
+
+ footer{
+  display: flex;
+  justify-content: center;
+  background-color: #005e1c;
+  color: aliceblue;
+  padding: 5px 80px;
+}
+
+.App {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  text-align: center;
+}
+
+.clubes-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.clube {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #005e1c;
+  border-radius: 80px;
+  border-style: groove;
+  width: 120px;
+  text-align: center;
+}
+
+.clube img {
+  width: 60px;
+  height: 60px;
+}
